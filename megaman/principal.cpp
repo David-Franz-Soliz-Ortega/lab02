@@ -5,6 +5,7 @@
 #include"arma2.h"
 #include"capsulavida.h"
 #include"capsulaenergia.h"
+#include"nivel.h"
 using namespace std;
 // videojuego: Megaman
 int main() {
@@ -26,5 +27,7 @@ int main() {
 	capsulaenergia* recarga = new capsulaenergia();
 	recarga->materialE("capsula2");
 
+	nivel* stage = new nivel();
+	stage->colornivel("gris");
 };
 

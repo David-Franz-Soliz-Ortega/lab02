@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="jugador.cpp" />
+    <ClCompile Include="nivel.cpp" />
     <ClCompile Include="principal.cpp" />
     <ClCompile Include="jefe.cpp" />
     <ClCompile Include="arma1.cpp" />
@@ -142,6 +143,7 @@
     <ClInclude Include="capsulavida.h" />
     <ClInclude Include="jefe.h" />
     <ClInclude Include="jugador.h" />
+    <ClInclude Include="nivel.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
